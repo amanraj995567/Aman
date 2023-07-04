@@ -20,8 +20,6 @@ int binarysearch(int arr[] , int size , int key){
         mid = (start + (end-start)/2);
     }
     return  -1;
-
-
 }
 
 int main(){
@@ -33,8 +31,5 @@ int main(){
 
      int index2 = binarysearch(odd , 7, 3);
      cout<<"index of 3 "<<index2 <<endl;
-
-
-
     return 0;
 }
